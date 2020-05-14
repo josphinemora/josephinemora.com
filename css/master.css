@@ -1,0 +1,155 @@
+
+
+h1 {
+  font-family: termina, sans-serif;
+  text-align: center;
+  padding: 3em;
+  font-weight: 100;
+}
+
+h2 {
+  text-align: center;
+  font-family: termina, sans-serif;
+  padding: 1.5em;
+  font-weight: 100;
+  font-size: 0.5em;
+}
+
+p{
+  font-family: termina, sans-serif;
+  font-weight: 100;
+  text-align: justify;
+  padding-left: 20em;
+  padding-right: 20em;
+  margin-bottom: 15vh;
+}
+
+.bouton{
+  font-family: termina, sans-serif;
+  text-align: center;
+  padding: 10em;
+}
+
+#images0111 {
+ /* Fixe l'image en haut à gauche de la page */
+ position: fixed;
+ top: 0;
+ left: 0;
+ /* Préserve le ratio de l'image */
+ min-width: 100%;
+ min-height: 100%;
+}
+
+.col-sm {
+font-family: termina, sans-serif;
+font-style: normal;
+font-weight: 100;
+text-align: center;
+padding: 2em;
+}
+
+.btn-btn-link {
+  border: none;
+}
+
+.btn {
+  color: black;
+}
+
+.form-row {
+  padding-left: 30em;
+  padding-right: 30em;
+  font-family: termina, sans-serif;
+}
+
+.form-group{
+  padding-left: 30em;
+  padding-right: 30em;
+  font-family: termina, sans-serif;
+}
+
+.btn-dark {
+  background-color: #065535;
+  border: #065535;
+  color: #fff;
+  text-align: center;
+}
+
+.home-logo img {
+  width: 100%;
+}
+
+.header,
+.main-content {
+  margin-bottom: 12vh;
+}
+
+.main-content .row {
+  margin-bottom: 2em;
+}
+
+
+@media (min-width: 1200px) {
+.footer {
+    max-width: 320px;
+}
+}
+
+.card {
+  border: none;
+}
+
+.contect_form {
+  max-width: 60%;
+  margin: 0 auto;
+}
+​
+.contect_form label {
+  display: block;
+}
+
+label[for='name'] {
+  font-size: 1em;
+  width : 55%;
+  margin-left: 12em;
+  max-width: 12em;
+  font-family: termina, sans-serif;
+}
+
+label[for='email'] {
+  font-size: 1em;
+  width : 55%;
+  margin-left: 12em;
+  max-width: 12em;
+  font-family: termina, sans-serif;
+}
+​
+label[for='message'] {
+  font-size: 1em;
+  width : 55%;
+  margin-left: 12em;
+  max-width: 12em;
+  font-family: termina, sans-serif;
+}
+
+.contect_form input,
+.contect_form textarea {
+  width : 55%;
+  margin-left: 12em;
+  border : 2px solid #DDE1E3;
+  font-family: termina, sans-serif;
+  margin-bottom: 2vh;
+}
+
+ input[type='submit'] {
+   border : 2px solid transparent;
+   font-size: 1em;
+   background: #065535;
+   max-width: 7em;
+   color: #fff;
+   font-family: termina, sans-serif;
+   text-align: center;
+   margin-top: 10vh;
+   margin-bottom: 20vh;
+   margin-left: 23em;
+ }
